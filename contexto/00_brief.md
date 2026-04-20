@@ -5,7 +5,7 @@
 **Autora:** Guillermina  
 **Sistema:** Guillermina × Claude  
 **Fecha inicio:** Abril 2025  
-**Archivo Figma Library:** [por crear]  
+**Archivo Figma Library:** https://www.figma.com/design/JC6SsqezIQeaaXq60aSfMk  
 **Archivo Figma Product:** Dashboard-dentalrobot (existente — solo referencia visual)  
 **Repo:** https://github.com/Guillermina4192/dentalrobot-design-system  
 
@@ -191,3 +191,13 @@ La verificación de seguros dentales es el cuello de botella más grande del cic
 8. E7: UX Patterns
 9. E8: QA + Handoff
 10. E9: Docs + Export + Governance
+
+---
+
+## 7. Archivos Figma
+
+| Archivo | URL | Propósito |
+|---------|-----|-----------|
+| **[DR] Design System — Library v1** | https://www.figma.com/design/JC6SsqezIQeaaXq60aSfMk | Library: variables, estilos, componentes. Publicar como Team Library. |
+| **[DR] Product — Dashboard v1** | https://www.figma.com/design/RtMZyIP1sW2YDCbnEFghA0 | Archivo de trabajo: pantallas reales. Consume la Library. |
+| **Dashboard-dentalrobot (referencia)** | https://www.figma.com/design/EEOJtRUCOS2hMw2UvltJhE | Solo referencia visual. No tocar. |
