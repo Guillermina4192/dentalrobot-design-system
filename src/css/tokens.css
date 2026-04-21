@@ -145,6 +145,31 @@
   --z-index-popover: 1400;
   --z-index-toast: 1500;
   --z-index-tooltip: 1600;
+  --font-family-sans: Inter, system-ui, -apple-system, sans-serif; /** Primary UI font — dashboards, body, labels */
+  --font-family-display: Poppins, Inter, sans-serif; /** Brand display only — logo text, marketing slides. NOT for UI. */
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; /** Code, IDs, technical data */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-size-xs: 11px; /** Micro labels, section dividers */
+  --font-size-sm: 12px; /** Caption, metadata, timestamps */
+  --font-size-base: 14px; /** Body default — nav, table, form labels */
+  --font-size-md: 16px; /** Emphasized body, prominent labels */
+  --font-size-lg: 18px; /** Subheadings, card titles */
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px; /** Page titles */
+  --font-size-3xl: 30px; /** Hero KPIs */
+  --font-size-4xl: 36px;
+  --font-size-5xl: 48px; /** Display — marketing slides only */
+  --font-line-height-tight: 1.2; /** Headlines, display */
+  --font-line-height-snug: 1.35; /** Headings */
+  --font-line-height-normal: 1.5; /** Body default */
+  --font-line-height-relaxed: 1.65; /** Long-form reading */
+  --font-letter-spacing-tight: -0.02em; /** Large display text */
+  --font-letter-spacing-normal: 0em;
+  --font-letter-spacing-wide: 0.02em;
+  --font-letter-spacing-wider: 0.08em; /** Uppercase section labels (MODULES, GENERAL) */
   --color-background-page: var(--color-white); /** Main page / content area */
   --color-background-surface: var(--color-white); /** Cards, panels, tables */
   --color-background-subtle: var(--color-gray-50); /** Table striping, hover rows, input fields */
@@ -214,4 +239,23 @@
   --color-feedback-positive: var(--color-green-600); /** Trend up, positive deltas */
   --color-feedback-negative: var(--color-red-600); /** Trend down, negative deltas */
   --color-accent-purple: var(--color-violet-500); /** Data viz accent — location icons, tertiary accents */
+  --typography-display-lg: var(--font-weight-semibold) var(--font-size-5xl)/var(--font-line-height-tight) var(--font-family-display); /** Marketing slides only — NOT for UI */
+  --typography-display-md: var(--font-weight-medium) var(--font-size-4xl)/var(--font-line-height-tight) var(--font-family-display);
+  --typography-heading-xl: var(--font-weight-bold) var(--font-size-3xl)/var(--font-line-height-tight) var(--font-family-sans); /** Hero KPI number — 30px Bold */
+  --typography-heading-lg: var(--font-weight-semibold) var(--font-size-2xl)/var(--font-line-height-snug) var(--font-family-sans); /** Page title — Dashboard, Insurance Verifications */
+  --typography-heading-md: var(--font-weight-semibold) var(--font-size-xl)/var(--font-line-height-snug) var(--font-family-sans); /** Section title, modal title */
+  --typography-heading-sm: var(--font-weight-semibold) var(--font-size-lg)/var(--font-line-height-snug) var(--font-family-sans); /** Card title, subsection */
+  --typography-heading-xs: var(--font-weight-semibold) var(--font-size-md)/var(--font-line-height-snug) var(--font-family-sans); /** Small emphasized heading */
+  --typography-body-lg: var(--font-weight-regular) var(--font-size-md)/var(--font-line-height-normal) var(--font-family-sans);
+  --typography-body-md: var(--font-weight-regular) var(--font-size-base)/var(--font-line-height-normal) var(--font-family-sans); /** Body default — 14px Regular */
+  --typography-body-sm: var(--font-weight-regular) var(--font-size-sm)/var(--font-line-height-normal) var(--font-family-sans); /** Small body — descriptions, helper text */
+  --typography-body-strong-md: var(--font-weight-medium) var(--font-size-base)/var(--font-line-height-normal) var(--font-family-sans); /** Emphasized body — patient names, important labels */
+  --typography-body-strong-sm: var(--font-weight-medium) var(--font-size-sm)/var(--font-line-height-normal) var(--font-family-sans);
+  --typography-label-md: var(--font-weight-medium) var(--font-size-base)/var(--font-line-height-snug) var(--font-family-sans); /** Form labels, nav items, buttons */
+  --typography-label-sm: var(--font-weight-medium) var(--font-size-sm)/var(--font-line-height-snug) var(--font-family-sans); /** Small labels — table headers, badges */
+  --typography-label-xs: var(--font-weight-semibold) var(--font-size-xs)/var(--font-line-height-snug) var(--font-family-sans); /** Section dividers — MODULES, GENERAL (uppercase) */
+  --typography-caption-md: var(--font-weight-regular) var(--font-size-sm)/var(--font-line-height-normal) var(--font-family-sans); /** Timestamps, metadata, helper text */
+  --typography-caption-sm: var(--font-weight-regular) var(--font-size-xs)/var(--font-line-height-normal) var(--font-family-sans); /** Micro captions, footer copyright */
+  --typography-code-md: var(--font-weight-regular) var(--font-size-base)/var(--font-line-height-normal) var(--font-family-mono);
+  --typography-code-sm: var(--font-weight-regular) var(--font-size-sm)/var(--font-line-height-normal) var(--font-family-mono); /** Inline IDs, codes in tables */
 }

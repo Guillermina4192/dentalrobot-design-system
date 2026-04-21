@@ -255,3 +255,193 @@ export const ZIndexModal: string;
 export const ZIndexPopover: string;
 export const ZIndexToast: string;
 export const ZIndexTooltip: string;
+/** Primary UI font — dashboards, body, labels */
+export const FontFamilySans: string;
+/** Brand display only — logo text, marketing slides. NOT for UI. */
+export const FontFamilyDisplay: string;
+/** Code, IDs, technical data */
+export const FontFamilyMono: string;
+export const FontWeightRegular: number;
+export const FontWeightMedium: number;
+export const FontWeightSemibold: number;
+export const FontWeightBold: number;
+/** Micro labels, section dividers */
+export const FontSizeXs: string;
+/** Caption, metadata, timestamps */
+export const FontSizeSm: string;
+/** Body default — nav, table, form labels */
+export const FontSizeBase: string;
+/** Emphasized body, prominent labels */
+export const FontSizeMd: string;
+/** Subheadings, card titles */
+export const FontSizeLg: string;
+export const FontSizeXl: string;
+/** Page titles */
+export const FontSize2xl: string;
+/** Hero KPIs */
+export const FontSize3xl: string;
+export const FontSize4xl: string;
+/** Display — marketing slides only */
+export const FontSize5xl: string;
+/** Headlines, display */
+export const FontLineHeightTight: string;
+/** Headings */
+export const FontLineHeightSnug: string;
+/** Body default */
+export const FontLineHeightNormal: string;
+/** Long-form reading */
+export const FontLineHeightRelaxed: string;
+/** Large display text */
+export const FontLetterSpacingTight: string;
+export const FontLetterSpacingNormal: string;
+export const FontLetterSpacingWide: string;
+/** Uppercase section labels (MODULES, GENERAL) */
+export const FontLetterSpacingWider: string;
+/** Marketing slides only — NOT for UI */
+export const TypographyDisplayLg: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+export const TypographyDisplayMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Hero KPI number — 30px Bold */
+export const TypographyHeadingXl: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Page title — Dashboard, Insurance Verifications */
+export const TypographyHeadingLg: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Section title, modal title */
+export const TypographyHeadingMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Card title, subsection */
+export const TypographyHeadingSm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Small emphasized heading */
+export const TypographyHeadingXs: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+export const TypographyBodyLg: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Body default — 14px Regular */
+export const TypographyBodyMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Small body — descriptions, helper text */
+export const TypographyBodySm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Emphasized body — patient names, important labels */
+export const TypographyBodyStrongMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+export const TypographyBodyStrongSm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Form labels, nav items, buttons */
+export const TypographyLabelMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Small labels — table headers, badges */
+export const TypographyLabelSm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Section dividers — MODULES, GENERAL (uppercase) */
+export const TypographyLabelXs: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Timestamps, metadata, helper text */
+export const TypographyCaptionMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Micro captions, footer copyright */
+export const TypographyCaptionSm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+export const TypographyCodeMd: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};
+/** Inline IDs, codes in tables */
+export const TypographyCodeSm: {
+  fontFamily: string;
+  fontSize: string;
+  fontWeight: number;
+  lineHeight: string;
+  letterSpacing: string;
+};

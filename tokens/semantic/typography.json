@@ -1,0 +1,257 @@
+{
+  "font": {
+    "family": {
+      "sans":    { "value": "Inter, system-ui, -apple-system, sans-serif", "type": "fontFamily", "comment": "Primary UI font — dashboards, body, labels" },
+      "display": { "value": "Poppins, Inter, sans-serif", "type": "fontFamily", "comment": "Brand display only — logo text, marketing slides. NOT for UI." },
+      "mono":    { "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, monospace", "type": "fontFamily", "comment": "Code, IDs, technical data" }
+    },
+
+    "weight": {
+      "regular":  { "value": 400, "type": "fontWeight" },
+      "medium":   { "value": 500, "type": "fontWeight" },
+      "semibold": { "value": 600, "type": "fontWeight" },
+      "bold":     { "value": 700, "type": "fontWeight" }
+    },
+
+    "size": {
+      "xs":   { "value": "11px", "type": "dimension", "comment": "Micro labels, section dividers" },
+      "sm":   { "value": "12px", "type": "dimension", "comment": "Caption, metadata, timestamps" },
+      "base": { "value": "14px", "type": "dimension", "comment": "Body default — nav, table, form labels" },
+      "md":   { "value": "16px", "type": "dimension", "comment": "Emphasized body, prominent labels" },
+      "lg":   { "value": "18px", "type": "dimension", "comment": "Subheadings, card titles" },
+      "xl":   { "value": "20px", "type": "dimension" },
+      "2xl":  { "value": "24px", "type": "dimension", "comment": "Page titles" },
+      "3xl":  { "value": "30px", "type": "dimension", "comment": "Hero KPIs" },
+      "4xl":  { "value": "36px", "type": "dimension" },
+      "5xl":  { "value": "48px", "type": "dimension", "comment": "Display — marketing slides only" }
+    },
+
+    "lineHeight": {
+      "tight":   { "value": "1.2",  "type": "number", "comment": "Headlines, display" },
+      "snug":    { "value": "1.35", "type": "number", "comment": "Headings" },
+      "normal":  { "value": "1.5",  "type": "number", "comment": "Body default" },
+      "relaxed": { "value": "1.65", "type": "number", "comment": "Long-form reading" }
+    },
+
+    "letterSpacing": {
+      "tight":  { "value": "-0.02em", "type": "dimension", "comment": "Large display text" },
+      "normal": { "value": "0em",     "type": "dimension" },
+      "wide":   { "value": "0.02em",  "type": "dimension" },
+      "wider":  { "value": "0.08em",  "type": "dimension", "comment": "Uppercase section labels (MODULES, GENERAL)" }
+    }
+  },
+
+  "typography": {
+    "display/lg": {
+      "value": {
+        "fontFamily":    "{font.family.display}",
+        "fontSize":      "{font.size.5xl}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.tight}",
+        "letterSpacing": "{font.letterSpacing.tight}"
+      },
+      "type": "typography",
+      "comment": "Marketing slides only — NOT for UI"
+    },
+    "display/md": {
+      "value": {
+        "fontFamily":    "{font.family.display}",
+        "fontSize":      "{font.size.4xl}",
+        "fontWeight":    "{font.weight.medium}",
+        "lineHeight":    "{font.lineHeight.tight}",
+        "letterSpacing": "{font.letterSpacing.tight}"
+      },
+      "type": "typography"
+    },
+
+    "heading/xl": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.3xl}",
+        "fontWeight":    "{font.weight.bold}",
+        "lineHeight":    "{font.lineHeight.tight}",
+        "letterSpacing": "{font.letterSpacing.tight}"
+      },
+      "type": "typography",
+      "comment": "Hero KPI number — 30px Bold"
+    },
+    "heading/lg": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.2xl}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Page title — Dashboard, Insurance Verifications"
+    },
+    "heading/md": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.xl}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Section title, modal title"
+    },
+    "heading/sm": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.lg}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Card title, subsection"
+    },
+    "heading/xs": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.md}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Small emphasized heading"
+    },
+
+    "body/lg": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.md}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography"
+    },
+    "body/md": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.base}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Body default — 14px Regular"
+    },
+    "body/sm": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.sm}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Small body — descriptions, helper text"
+    },
+
+    "body-strong/md": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.base}",
+        "fontWeight":    "{font.weight.medium}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Emphasized body — patient names, important labels"
+    },
+    "body-strong/sm": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.sm}",
+        "fontWeight":    "{font.weight.medium}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography"
+    },
+
+    "label/md": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.base}",
+        "fontWeight":    "{font.weight.medium}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Form labels, nav items, buttons"
+    },
+    "label/sm": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.sm}",
+        "fontWeight":    "{font.weight.medium}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Small labels — table headers, badges"
+    },
+    "label/xs": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.xs}",
+        "fontWeight":    "{font.weight.semibold}",
+        "lineHeight":    "{font.lineHeight.snug}",
+        "letterSpacing": "{font.letterSpacing.wider}"
+      },
+      "type": "typography",
+      "comment": "Section dividers — MODULES, GENERAL (uppercase)"
+    },
+
+    "caption/md": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.sm}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Timestamps, metadata, helper text"
+    },
+    "caption/sm": {
+      "value": {
+        "fontFamily":    "{font.family.sans}",
+        "fontSize":      "{font.size.xs}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Micro captions, footer copyright"
+    },
+
+    "code/md": {
+      "value": {
+        "fontFamily":    "{font.family.mono}",
+        "fontSize":      "{font.size.base}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography"
+    },
+    "code/sm": {
+      "value": {
+        "fontFamily":    "{font.family.mono}",
+        "fontSize":      "{font.size.sm}",
+        "fontWeight":    "{font.weight.regular}",
+        "lineHeight":    "{font.lineHeight.normal}",
+        "letterSpacing": "{font.letterSpacing.normal}"
+      },
+      "type": "typography",
+      "comment": "Inline IDs, codes in tables"
+    }
+  }
+}

@@ -217,3 +217,162 @@ export const ZIndexModal = "1300";
 export const ZIndexPopover = "1400";
 export const ZIndexToast = "1500";
 export const ZIndexTooltip = "1600";
+export const FontFamilySans = "Inter, system-ui, -apple-system, sans-serif"; // Primary UI font — dashboards, body, labels
+export const FontFamilyDisplay = "Poppins, Inter, sans-serif"; // Brand display only — logo text, marketing slides. NOT for UI.
+export const FontFamilyMono =
+  "ui-monospace, SFMono-Regular, Menlo, Monaco, monospace"; // Code, IDs, technical data
+export const FontWeightRegular = 400;
+export const FontWeightMedium = 500;
+export const FontWeightSemibold = 600;
+export const FontWeightBold = 700;
+export const FontSizeXs = "11px"; // Micro labels, section dividers
+export const FontSizeSm = "12px"; // Caption, metadata, timestamps
+export const FontSizeBase = "14px"; // Body default — nav, table, form labels
+export const FontSizeMd = "16px"; // Emphasized body, prominent labels
+export const FontSizeLg = "18px"; // Subheadings, card titles
+export const FontSizeXl = "20px";
+export const FontSize2xl = "24px"; // Page titles
+export const FontSize3xl = "30px"; // Hero KPIs
+export const FontSize4xl = "36px";
+export const FontSize5xl = "48px"; // Display — marketing slides only
+export const FontLineHeightTight = "1.2"; // Headlines, display
+export const FontLineHeightSnug = "1.35"; // Headings
+export const FontLineHeightNormal = "1.5"; // Body default
+export const FontLineHeightRelaxed = "1.65"; // Long-form reading
+export const FontLetterSpacingTight = "-0.02em"; // Large display text
+export const FontLetterSpacingNormal = "0em";
+export const FontLetterSpacingWide = "0.02em";
+export const FontLetterSpacingWider = "0.08em"; // Uppercase section labels (MODULES, GENERAL)
+export const TypographyDisplayLg = {
+  fontFamily: "Poppins, Inter, sans-serif",
+  fontSize: "48px",
+  fontWeight: 600,
+  lineHeight: "1.2",
+  letterSpacing: "-0.02em",
+}; // Marketing slides only — NOT for UI
+export const TypographyDisplayMd = {
+  fontFamily: "Poppins, Inter, sans-serif",
+  fontSize: "36px",
+  fontWeight: 500,
+  lineHeight: "1.2",
+  letterSpacing: "-0.02em",
+};
+export const TypographyHeadingXl = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "30px",
+  fontWeight: 700,
+  lineHeight: "1.2",
+  letterSpacing: "-0.02em",
+}; // Hero KPI number — 30px Bold
+export const TypographyHeadingLg = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "24px",
+  fontWeight: 600,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Page title — Dashboard, Insurance Verifications
+export const TypographyHeadingMd = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "20px",
+  fontWeight: 600,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Section title, modal title
+export const TypographyHeadingSm = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "18px",
+  fontWeight: 600,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Card title, subsection
+export const TypographyHeadingXs = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "16px",
+  fontWeight: 600,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Small emphasized heading
+export const TypographyBodyLg = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "16px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+};
+export const TypographyBodyMd = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "14px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Body default — 14px Regular
+export const TypographyBodySm = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "12px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Small body — descriptions, helper text
+export const TypographyBodyStrongMd = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "14px",
+  fontWeight: 500,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Emphasized body — patient names, important labels
+export const TypographyBodyStrongSm = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "12px",
+  fontWeight: 500,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+};
+export const TypographyLabelMd = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "14px",
+  fontWeight: 500,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Form labels, nav items, buttons
+export const TypographyLabelSm = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "12px",
+  fontWeight: 500,
+  lineHeight: "1.35",
+  letterSpacing: "0em",
+}; // Small labels — table headers, badges
+export const TypographyLabelXs = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "11px",
+  fontWeight: 600,
+  lineHeight: "1.35",
+  letterSpacing: "0.08em",
+}; // Section dividers — MODULES, GENERAL (uppercase)
+export const TypographyCaptionMd = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "12px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Timestamps, metadata, helper text
+export const TypographyCaptionSm = {
+  fontFamily: "Inter, system-ui, -apple-system, sans-serif",
+  fontSize: "11px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Micro captions, footer copyright
+export const TypographyCodeMd = {
+  fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, monospace",
+  fontSize: "14px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+};
+export const TypographyCodeSm = {
+  fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, monospace",
+  fontSize: "12px",
+  fontWeight: 400,
+  lineHeight: "1.5",
+  letterSpacing: "0em",
+}; // Inline IDs, codes in tables
