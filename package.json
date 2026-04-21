@@ -1,0 +1,13 @@
+{
+  "name": "dentalrobot-design-system",
+  "version": "1.0.0",
+  "description": "DentalRobot Design System — tokens + components",
+  "private": true,
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.json",
+    "clean": "rm -rf src"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.0"
+  }
+}

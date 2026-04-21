@@ -1,0 +1,122 @@
+{
+  "color": {
+    "background": {
+      "page":         { "value": "{color.white}",     "type": "color", "comment": "Main page / content area" },
+      "surface":      { "value": "{color.white}",     "type": "color", "comment": "Cards, panels, tables" },
+      "subtle":       { "value": "{color.gray.50}",   "type": "color", "comment": "Table striping, hover rows, input fields" },
+      "muted":        { "value": "{color.gray.100}",  "type": "color", "comment": "Disabled surfaces, secondary panels" },
+      "inverse":      { "value": "{color.navy.800}",  "type": "color", "comment": "Sidebar, dark surfaces" },
+      "inverseDeep":  { "value": "{color.navy.950}",  "type": "color", "comment": "Gradient end on sidebar" },
+      "overlay":      { "value": "rgba(17, 24, 39, 0.5)", "type": "color", "comment": "Modal backdrop" }
+    },
+
+    "text": {
+      "primary":      { "value": "{color.gray.900}",  "type": "color", "comment": "Headings, primary body text — AA on white" },
+      "secondary":    { "value": "{color.gray.600}",  "type": "color", "comment": "Descriptions, subtitles — AA on white (4.5:1 min)" },
+      "tertiary":     { "value": "{color.gray.500}",  "type": "color", "comment": "Metadata, timestamps — AA on white (4.5:1)" },
+      "disabled":     { "value": "{color.gray.400}",  "type": "color", "comment": "Disabled text — does NOT meet AA (by WCAG design)" },
+      "placeholder":  { "value": "{color.gray.400}",  "type": "color", "comment": "Input placeholders" },
+      "onInverse":    { "value": "{color.white}",     "type": "color", "comment": "Text on navy sidebar" },
+      "onInverseMuted":{ "value": "rgba(255, 255, 255, 0.60)", "type": "color", "comment": "Section labels in sidebar (MODULES/GENERAL)" },
+      "interactive":  { "value": "{color.blue.600}",  "type": "color", "comment": "Links, interactive text" },
+      "interactiveHover":{ "value": "{color.blue.700}", "type": "color" }
+    },
+
+    "border": {
+      "default":      { "value": "{color.gray.200}",  "type": "color", "comment": "Card borders, dividers, input borders" },
+      "subtle":       { "value": "{color.gray.100}",  "type": "color", "comment": "Low-emphasis dividers" },
+      "strong":       { "value": "{color.gray.300}",  "type": "color", "comment": "Input borders, stronger dividers" },
+      "focus":        { "value": "{color.blue.600}",  "type": "color", "comment": "Focus ring — WCAG 2.4.7, ≥3:1 non-text contrast" },
+      "inverse":      { "value": "rgba(255, 255, 255, 0.10)", "type": "color", "comment": "Dividers within sidebar" }
+    },
+
+    "interactive": {
+      "primary": {
+        "default":    { "value": "{color.blue.600}",  "type": "color", "comment": "Primary button, CTA" },
+        "hover":      { "value": "{color.blue.700}",  "type": "color" },
+        "active":     { "value": "{color.blue.800}",  "type": "color" },
+        "disabled":   { "value": "{color.blue.200}",  "type": "color" },
+        "textOn":     { "value": "{color.white}",     "type": "color" }
+      },
+      "secondary": {
+        "default":    { "value": "{color.white}",     "type": "color", "comment": "Secondary button — white with border" },
+        "hover":      { "value": "{color.gray.50}",   "type": "color" },
+        "active":     { "value": "{color.gray.100}",  "type": "color" },
+        "disabled":   { "value": "{color.gray.100}",  "type": "color" },
+        "textOn":     { "value": "{color.gray.900}",  "type": "color" },
+        "border":     { "value": "{color.gray.300}",  "type": "color" }
+      },
+      "ghost": {
+        "default":    { "value": "rgba(0, 0, 0, 0)",  "type": "color", "comment": "Transparent — ghost button / icon button" },
+        "hover":      { "value": "{color.gray.100}",  "type": "color" },
+        "active":     { "value": "{color.gray.200}",  "type": "color" },
+        "textOn":     { "value": "{color.gray.700}",  "type": "color" }
+      },
+      "destructive": {
+        "default":    { "value": "{color.red.600}",   "type": "color" },
+        "hover":      { "value": "{color.red.700}",   "type": "color" },
+        "active":     { "value": "{color.red.800}",   "type": "color" },
+        "textOn":     { "value": "{color.white}",     "type": "color" }
+      },
+      "nav": {
+        "default":    { "value": "rgba(0, 0, 0, 0)",  "type": "color", "comment": "Sidebar nav item default" },
+        "hover":      { "value": "rgba(255, 255, 255, 0.10)", "type": "color" },
+        "active":     { "value": "rgba(255, 255, 255, 0.18)", "type": "color", "comment": "Selected nav item" }
+      }
+    },
+
+    "status": {
+      "success": {
+        "background": { "value": "{color.green.100}", "type": "color", "comment": "Badge bg — Verified, Audited" },
+        "text":       { "value": "{color.green.800}", "type": "color", "comment": "Badge text — AA on green-100" },
+        "icon":       { "value": "{color.green.600}", "type": "color" },
+        "border":     { "value": "{color.green.200}", "type": "color" },
+        "solid":      { "value": "{color.green.600}", "type": "color", "comment": "Solid status indicator dot" }
+      },
+      "error": {
+        "background": { "value": "{color.red.100}",   "type": "color", "comment": "Badge bg — Failed" },
+        "text":       { "value": "{color.red.800}",   "type": "color" },
+        "icon":       { "value": "{color.red.600}",   "type": "color" },
+        "border":     { "value": "{color.red.200}",   "type": "color" },
+        "solid":      { "value": "{color.red.600}",   "type": "color" }
+      },
+      "warning": {
+        "background": { "value": "{color.amber.100}", "type": "color", "comment": "Badge bg — Not Found, Slow" },
+        "text":       { "value": "{color.amber.800}", "type": "color" },
+        "icon":       { "value": "{color.amber.600}", "type": "color" },
+        "border":     { "value": "{color.amber.200}", "type": "color" },
+        "solid":      { "value": "{color.amber.500}", "type": "color" }
+      },
+      "info": {
+        "background": { "value": "{color.sky.100}",   "type": "color", "comment": "Badge bg — Needs Review, Pending" },
+        "text":       { "value": "{color.sky.800}",   "type": "color" },
+        "icon":       { "value": "{color.sky.600}",   "type": "color" },
+        "border":     { "value": "{color.sky.200}",   "type": "color" },
+        "solid":      { "value": "{color.sky.500}",   "type": "color" }
+      },
+      "neutral": {
+        "background": { "value": "{color.gray.100}",  "type": "color", "comment": "Badge bg — Not Audited" },
+        "text":       { "value": "{color.gray.700}",  "type": "color" },
+        "icon":       { "value": "{color.gray.500}",  "type": "color" },
+        "border":     { "value": "{color.gray.200}",  "type": "color" },
+        "solid":      { "value": "{color.gray.500}",  "type": "color" }
+      },
+      "progress": {
+        "background": { "value": "{color.blue.100}",  "type": "color", "comment": "Badge bg — In Progress" },
+        "text":       { "value": "{color.blue.800}",  "type": "color" },
+        "icon":       { "value": "{color.blue.600}",  "type": "color" },
+        "border":     { "value": "{color.blue.200}",  "type": "color" },
+        "solid":      { "value": "{color.blue.600}",  "type": "color" }
+      }
+    },
+
+    "feedback": {
+      "positive": { "value": "{color.green.600}", "type": "color", "comment": "Trend up, positive deltas" },
+      "negative": { "value": "{color.red.600}",   "type": "color", "comment": "Trend down, negative deltas" }
+    },
+
+    "accent": {
+      "purple": { "value": "{color.violet.500}", "type": "color", "comment": "Data viz accent — location icons, tertiary accents" }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-navy-50: #eef0ff;
+  --color-navy-100: #dde1ff;
+  --color-navy-200: #b9c1ff;
+  --color-navy-300: #8a97ff;
+  --color-navy-400: #5c6cff;
+  --color-navy-500: #3644eb;
+  --color-navy-600: #2530c7;
+  --color-navy-700: #1b24a2;
+  --color-navy-800: #111784; /** Brand navy — sidebar, identity */
+  --color-navy-900: #0b1068;
+  --color-navy-950: #060a5a; /** Brand navy deep — gradient end */
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-200: #bfdbfe;
+  --color-blue-300: #93c5fd;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb; /** Interactive primary */
+  --color-blue-700: #1d4ed8;
+  --color-blue-800: #1e40af;
+  --color-blue-900: #1e3a8a;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+  --color-green-50: #f0fdf4;
+  --color-green-100: #dcfce7;
+  --color-green-200: #bbf7d0;
+  --color-green-300: #86efac;
+  --color-green-400: #4ade80;
+  --color-green-500: #22c55e;
+  --color-green-600: #16a34a;
+  --color-green-700: #15803d;
+  --color-green-800: #166534;
+  --color-green-900: #14532d;
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fef3c7;
+  --color-amber-200: #fde68a;
+  --color-amber-300: #fcd34d;
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-amber-800: #92400e;
+  --color-amber-900: #78350f;
+  --color-sky-50: #f0f9ff;
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #bae6fd;
+  --color-sky-300: #7dd3fc;
+  --color-sky-400: #38bdf8;
+  --color-sky-500: #0ea5e9;
+  --color-sky-600: #0284c7;
+  --color-sky-700: #0369a1;
+  --color-sky-800: #075985;
+  --color-sky-900: #0c4a6e;
+  --color-violet-50: #f5f3ff;
+  --color-violet-100: #ede9fe;
+  --color-violet-200: #ddd6fe;
+  --color-violet-300: #c4b5fd;
+  --color-violet-400: #a78bfa;
+  --color-violet-500: #8b5cf6;
+  --color-violet-600: #7c3aed;
+  --color-violet-700: #6d28d9;
+  --color-violet-800: #5b21b6;
+  --color-violet-900: #4c1d95;
+  --color-background-overlay: rgba(17, 24, 39, 0.5); /** Modal backdrop */
+  --color-text-on-inverse-muted: rgba(255, 255, 255, 0.6); /** Section labels in sidebar (MODULES/GENERAL) */
+  --color-border-inverse: rgba(255, 255, 255, 0.1); /** Dividers within sidebar */
+  --color-interactive-ghost-default: rgba(0, 0, 0, 0); /** Transparent — ghost button / icon button */
+  --color-interactive-nav-default: rgba(0, 0, 0, 0); /** Sidebar nav item default */
+  --color-interactive-nav-hover: rgba(255, 255, 255, 0.1);
+  --color-interactive-nav-active: rgba(255, 255, 255, 0.18); /** Selected nav item */
+  --space-0: 0px;
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 6px;
+  --space-4: 8px;
+  --space-5: 10px;
+  --space-6: 12px;
+  --space-8: 16px;
+  --space-10: 20px;
+  --space-12: 24px;
+  --space-14: 28px;
+  --space-16: 32px;
+  --space-20: 40px;
+  --space-24: 48px;
+  --space-32: 64px;
+  --space-40: 80px;
+  --space-48: 96px;
+  --space-56: 112px;
+  --space-64: 128px;
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-full: 9999px;
+  --shadow-none: none;
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+  --motion-duration-instant: 0ms;
+  --motion-duration-fast: 150ms;
+  --motion-duration-base: 200ms;
+  --motion-duration-slow: 300ms;
+  --motion-duration-slower: 500ms;
+  --motion-easing-linear: linear;
+  --motion-easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /** Default ease for most UI transitions */
+  --motion-easing-decelerate: cubic-bezier(0, 0, 0.2, 1); /** Enter / appear */
+  --motion-easing-accelerate: cubic-bezier(0.4, 0, 1, 1); /** Exit / dismiss */
+  --z-index-base: 0;
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1100;
+  --z-index-overlay: 1200;
+  --z-index-modal: 1300;
+  --z-index-popover: 1400;
+  --z-index-toast: 1500;
+  --z-index-tooltip: 1600;
+  --color-background-page: var(--color-white); /** Main page / content area */
+  --color-background-surface: var(--color-white); /** Cards, panels, tables */
+  --color-background-subtle: var(--color-gray-50); /** Table striping, hover rows, input fields */
+  --color-background-muted: var(--color-gray-100); /** Disabled surfaces, secondary panels */
+  --color-background-inverse: var(--color-navy-800); /** Sidebar, dark surfaces */
+  --color-background-inverse-deep: var(--color-navy-950); /** Gradient end on sidebar */
+  --color-text-primary: var(--color-gray-900); /** Headings, primary body text — AA on white */
+  --color-text-secondary: var(--color-gray-600); /** Descriptions, subtitles — AA on white (4.5:1 min) */
+  --color-text-tertiary: var(--color-gray-500); /** Metadata, timestamps — AA on white (4.5:1) */
+  --color-text-disabled: var(--color-gray-400); /** Disabled text — does NOT meet AA (by WCAG design) */
+  --color-text-placeholder: var(--color-gray-400); /** Input placeholders */
+  --color-text-on-inverse: var(--color-white); /** Text on navy sidebar */
+  --color-text-interactive: var(--color-blue-600); /** Links, interactive text */
+  --color-text-interactive-hover: var(--color-blue-700);
+  --color-border-default: var(--color-gray-200); /** Card borders, dividers, input borders */
+  --color-border-subtle: var(--color-gray-100); /** Low-emphasis dividers */
+  --color-border-strong: var(--color-gray-300); /** Input borders, stronger dividers */
+  --color-border-focus: var(--color-blue-600); /** Focus ring — WCAG 2.4.7, ≥3:1 non-text contrast */
+  --color-interactive-primary-default: var(--color-blue-600); /** Primary button, CTA */
+  --color-interactive-primary-hover: var(--color-blue-700);
+  --color-interactive-primary-active: var(--color-blue-800);
+  --color-interactive-primary-disabled: var(--color-blue-200);
+  --color-interactive-primary-text-on: var(--color-white);
+  --color-interactive-secondary-default: var(--color-white); /** Secondary button — white with border */
+  --color-interactive-secondary-hover: var(--color-gray-50);
+  --color-interactive-secondary-active: var(--color-gray-100);
+  --color-interactive-secondary-disabled: var(--color-gray-100);
+  --color-interactive-secondary-text-on: var(--color-gray-900);
+  --color-interactive-secondary-border: var(--color-gray-300);
+  --color-interactive-ghost-hover: var(--color-gray-100);
+  --color-interactive-ghost-active: var(--color-gray-200);
+  --color-interactive-ghost-text-on: var(--color-gray-700);
+  --color-interactive-destructive-default: var(--color-red-600);
+  --color-interactive-destructive-hover: var(--color-red-700);
+  --color-interactive-destructive-active: var(--color-red-800);
+  --color-interactive-destructive-text-on: var(--color-white);
+  --color-status-success-background: var(--color-green-100); /** Badge bg — Verified, Audited */
+  --color-status-success-text: var(--color-green-800); /** Badge text — AA on green-100 */
+  --color-status-success-icon: var(--color-green-600);
+  --color-status-success-border: var(--color-green-200);
+  --color-status-success-solid: var(--color-green-600); /** Solid status indicator dot */
+  --color-status-error-background: var(--color-red-100); /** Badge bg — Failed */
+  --color-status-error-text: var(--color-red-800);
+  --color-status-error-icon: var(--color-red-600);
+  --color-status-error-border: var(--color-red-200);
+  --color-status-error-solid: var(--color-red-600);
+  --color-status-warning-background: var(--color-amber-100); /** Badge bg — Not Found, Slow */
+  --color-status-warning-text: var(--color-amber-800);
+  --color-status-warning-icon: var(--color-amber-600);
+  --color-status-warning-border: var(--color-amber-200);
+  --color-status-warning-solid: var(--color-amber-500);
+  --color-status-info-background: var(--color-sky-100); /** Badge bg — Needs Review, Pending */
+  --color-status-info-text: var(--color-sky-800);
+  --color-status-info-icon: var(--color-sky-600);
+  --color-status-info-border: var(--color-sky-200);
+  --color-status-info-solid: var(--color-sky-500);
+  --color-status-neutral-background: var(--color-gray-100); /** Badge bg — Not Audited */
+  --color-status-neutral-text: var(--color-gray-700);
+  --color-status-neutral-icon: var(--color-gray-500);
+  --color-status-neutral-border: var(--color-gray-200);
+  --color-status-neutral-solid: var(--color-gray-500);
+  --color-status-progress-background: var(--color-blue-100); /** Badge bg — In Progress */
+  --color-status-progress-text: var(--color-blue-800);
+  --color-status-progress-icon: var(--color-blue-600);
+  --color-status-progress-border: var(--color-blue-200);
+  --color-status-progress-solid: var(--color-blue-600);
+  --color-feedback-positive: var(--color-green-600); /** Trend up, positive deltas */
+  --color-feedback-negative: var(--color-red-600); /** Trend down, negative deltas */
+  --color-accent-purple: var(--color-violet-500); /** Data viz accent — location icons, tertiary accents */
+}
